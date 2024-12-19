@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demablon - Tour & Travel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Demablon</h1>
+                <p>Your Gateway to Arbaminch, South Ethiopia</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to Demablon Tours & Travel</h2>
+            <p>Explore the breathtaking landscapes, culture, and hospitality of Arbaminch.</p>
+            <a href="#packages" class="btn">Discover Our Packages</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Demablon is a premier tour and travel agency located in Arbaminch, South Ethiopia. With our unparalleled hospitality and expertise, we are dedicated to providing memorable travel experiences that showcase the beauty and culture of Ethiopia.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Tour Packages</h3>
+                    <p>Customized tours that let you explore the natural and cultural wonders of Arbaminch.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-hotel"></i>
+                    <h3>Accommodation</h3>
+                    <p>Stay in comfortable lodgings with top-notch hospitality services.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-car"></i>
+                    <h3>Transportation</h3>
+                    <p>Reliable and safe transportation options for your convenience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages">
+        <div class="container">
+            <h2>Tour Packages</h2>
+            <div class="package-list">
+                <div class="package-item">
+                    <h3>Chamo Lake Adventure</h3>
+                    <p>Discover the unique ecosystem of Chamo Lake and enjoy guided boat tours.</p>
+                    <p class="price">Starting at $100</p>
+                    <a href="#contact" class="btn">Book Now</a>
+                </div>
+                <div class="package-item">
+                    <h3>Nech Sar National Park</h3>
+                    <p>Explore the rich wildlife and scenic landscapes of Nech Sar National Park.</p>
+                    <p class="price">Starting at $120</p>
+                    <a href="#contact" class="btn">Book Now</a>
+                </div>
+                <div class="package-item">
+                    <h3>Dorze Village Cultural Tour</h3>
+                    <p>Immerse yourself in the traditions and crafts of the Dorze community.</p>
+                    <p class="price">Starting at $80</p>
+                    <a href="#contact" class="btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Reach out to us for bookings or inquiries.</p>
+            <form action="/submit" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Demablon Tours & Travel. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
